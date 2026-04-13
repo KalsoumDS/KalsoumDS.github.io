@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oumou Kaltoum Sall | Data Scientist</title>
+    <meta name="description" content="Data Scientist spécialisée en ML, Deep Learning et MLOps. Master Data Science & IA.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,10 +15,11 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#" class="nav-logo">OKS</a>
+            <a href="#" class="nav-logo">Oumou Kaltoum Sall</a>
             <ul class="nav-menu">
-                <li><a href="#about" class="nav-link">À Propos</a></li>
-                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#about" class="nav-link">Parcours</a></li>
+                <li><a href="#process" class="nav-link">Approche</a></li>
+                <li><a href="#projects" class="nav-link">Case Studies</a></li>
                 <li><a href="#skills" class="nav-link">Compétences</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
@@ -32,179 +34,224 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    <span class="badge-dot"></span>
-                    Disponible pour opportunités
-                </div>
-                <p class="hero-subtitle">Data Scientist & ML Engineer</p>
-                <h1 class="hero-title">Oumou Kaltoum Sall</h1>
-                <p class="hero-description">
-                    Je transforme les données complexes en insights actionnables. 
-                    Spécialisée en <span class="highlight">Machine Learning</span>, 
-                    <span class="highlight">Deep Learning</span> et 
-                    <span class="highlight">MLOps</span>.
-                </p>
-                <div class="hero-tech-stack">
-                    <span class="tech-badge">Python</span>
-                    <span class="tech-badge">TensorFlow</span>
-                    <span class="tech-badge">PyTorch</span>
-                    <span class="tech-badge">Scikit-learn</span>
-                    <span class="tech-badge">MLflow</span>
-                    <span class="tech-badge">Docker</span>
-                </div>
-                <div class="hero-location">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Casablanca, Maroc</span>
-                    <span class="separator">|</span>
-                    <i class="fas fa-graduation-cap"></i>
-                    <span>Master Data Science & IA</span>
-                </div>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">
-                        <i class="fas fa-rocket"></i> Voir mes projets
-                    </a>
-                    <a href="https://github.com/KalsoumDS" target="_blank" class="btn btn-secondary">
-                        <i class="fab fa-github"></i> GitHub
-                    </a>
-                    <a href="#contact" class="btn btn-outline">
-                        <i class="fas fa-envelope"></i> Me contacter
-                    </a>
+            <div class="hero-visual">
+                <div class="hero-avatar">
+                    <div class="avatar-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="status-badge">
+                        <span class="status-dot"></span>
+                        <span>Open to opportunities</span>
+                    </div>
                 </div>
             </div>
-            <div class="hero-visual">
-                <div class="profile-card">
-                    <div class="profile-avatar">
-                        <span class="avatar-text">OKS</span>
-                    </div>
-                    <div class="profile-info">
-                        <h3>Oumou Kaltoum Sall</h3>
-                        <p>Data Scientist</p>
-                    </div>
-                    <div class="profile-stats">
-                        <div class="p-stat">
-                            <span class="p-number">10+</span>
-                            <span class="p-label">Projets</span>
-                        </div>
-                        <div class="p-stat">
-                            <span class="p-number">5+</span>
-                            <span class="p-label">Ans Exp.</span>
-                        </div>
-                        <div class="p-stat">
-                            <span class="p-number">50+</span>
-                            <span class="p-label">Models</span>
-                        </div>
-                    </div>
-                </div>
-            <div class="hero-code">
-                <div class="code-window">
+            <div class="hero-content">
+                <span class="hero-eyebrow">Data Scientist</span>
+                <h1 class="hero-title">Oumou Kaltoum Sall</h1>
+                
+                <!-- Code Block Style -->
+                <div class="code-block">
                     <div class="code-header">
-                        <div class="code-dot red"></div>
-                        <div class="code-dot yellow"></div>
-                        <div class="code-dot green"></div>
+                        <span class="code-dot red"></span>
+                        <span class="code-dot yellow"></span>
+                        <span class="code-dot green"></span>
                         <span class="code-filename">data_scientist.py</span>
                     </div>
                     <pre class="code-content"><code><span class="code-keyword">class</span> <span class="code-class">DataScientist</span>:
     <span class="code-keyword">def</span> <span class="code-function">__init__</span>(self):
         self.nom = <span class="code-string">"Oumou Kaltoum Sall"</span>
         self.role = <span class="code-string">"Data Scientist"</span>
-        self.location = <span class="code-string">"Casablanca, Maroc"</span>
+        self.localisation = <span class="code-string">"Casablanca, Maroc"</span>
         self.formation = <span class="code-string">"Master Data Science & IA"</span>
+        self.passion = <span class="code-string">"Construire des systèmes ML intelligents"</span>
         
-        self.expertise = [
-            <span class="code-string">"Machine Learning"</span>,
-            <span class="code-string">"Deep Learning"</span>,
-            <span class="code-string">"MLOps"</span>,
-            <span class="code-string">"Computer Vision"</span>,
-            <span class="code-string">"NLP"</span>
-        ]
-    
-    <span class="code-keyword">def</span> <span class="code-function">travailler_sur</span>(self):
+    <span class="code-keyword">def</span> <span class="code-function">expertise</span>(self):
         <span class="code-keyword">return</span> [
-            <span class="code-string">"Analyse Exploratoire"</span>,
-            <span class="code-string">"Modélisation ML"</span>,
-            <span class="code-string">"Pipelines End-to-End"</span>,
-            <span class="code-string">"Déploiement Production"</span>
-        ]</code></pre>
+            <span class="code-string">"🤖 IA Générative & LLM"</span>,
+            <span class="code-string">"🧠 Deep Learning & Computer Vision"</span>,
+            <span class="code-string">"🔧 MLOps & Déploiement Production"</span>,
+            <span class="code-string">"📊 Analyse de Données 2D/3D"</span>,
+            <span class="code-string">"⚡ Optimisation d'Algorithmes"</span>
+        ]
+        
+ <span class="code-keyword">def</span> <span class="code-function">contact</span>(self):
+        <span class="code-keyword">return</span> <span class="code-string">"github.com/KalsoumDS"</span></code></pre>
+                </div>
+                
+                <div class="hero-cta">
+                    <a href="https://github.com/KalsoumDS" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i>
+                        Voir mon GitHub
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <i class="fas fa-folder-open"></i>
+                        Mes projets
+                    </a>
                 </div>
             </div>
-        </div>
-        <div class="scroll-indicator">
-            <i class="fas fa-chevron-down"></i>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- About / Journey Section -->
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">À Propos</span>
-                <h2 class="section-title">Passionnée par la Data Science</h2>
-                <p class="section-desc">Mon parcours et mon expertise en quelques mots</p>
+                <span class="section-eyebrow">Mon Parcours</span>
+                <h2 class="section-title">De la passion à la pratique</h2>
             </div>
             
-            <div class="about-grid">
-                <div class="about-card main-card">
-                    <div class="card-icon">
-                        <i class="fas fa-quote-left"></i>
+            <div class="about-story">
+                <div class="story-intro">
+                    <p class="lead">
+                        Mon parcours en Data Science a commencé par une fascination pour les mathématiques 
+                        appliquées et l'envie de résoudre des problèmes concrets avec l'IA.
+                    </p>
+                </div>
+                
+                <div class="timeline">
+                    <!-- Formation 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Sept 2021 — Juin 2024</span>
+                            <h3>Licence Mathématiques Appliquées</h3>
+                            <p class="timeline-org">Institut Supérieur de Management (ISM) — Dakar, Sénégal</p>
+                            <p>Fondamentaux : Analyse numérique, Algèbre linéaire, Statistiques et Calcul scientifique. 
+                               Base théorique essentielle pour comprendre les algorithmes ML.</p>
+                        </div>
                     </div>
-                    <p class="about-quote">
-                        "Les données sont le nouveau pétrole, mais l'analyse est le raffinage qui crée la valeur."
-                    </p>
-                    <p class="about-text">
-                        Data Scientist avec un <strong>Master en Data Science & IA</strong>, je conçois des systèmes ML 
-                        intelligents de bout en bout. De l'analyse exploratoire au déploiement en production, 
-                        je transforme les données complexes en solutions actionnables qui créent de la valeur réelle.
-                    </p>
-                    <div class="about-tags">
-                        <span class="about-tag">Machine Learning</span>
-                        <span class="about-tag">Deep Learning</span>
-                        <span class="about-tag">MLOps</span>
-                        <span class="about-tag">Computer Vision</span>
-                        <span class="about-tag">NLP</span>
+                    
+                    <!-- Expérience 1 : Bénévolat -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Jan 2024 — Juin 2024</span>
+                            <h3>Bénévole — Gestion Financière</h3>
+                            <p class="timeline-org">Association Refocus Child — Sénégal</p>
+                            <p>Gestion de trésorerie : suivi des opérations, contrôle budgétaire et reporting financier. 
+                               Optimisation des processus avec mise en place de systèmes de suivi.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Formation 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Jan 2024 — Juillet 2026</span>
+                            <h3>Master Data Science & Intelligence Artificielle</h3>
+                            <p class="timeline-org">Université Mundiapolis — Casablanca, Maroc</p>
+                            <p>Focus : IA Générative, Deep Learning, Optimisation d'algorithmes et Big Data. 
+                               Spécialisation en Machine Learning, Vision par Ordinateur et MLOps.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Expérience 2 : Stage actuel -->
+                    <div class="timeline-item current">
+                        <div class="timeline-marker">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Février 2026 — En cours</span>
+                            <h3>Stagiaire Data Scientist R&D</h3>
+                            <p class="timeline-org">ABA Technology — Casablanca, Maroc</p>
+                            <p>Veille et recherche sur les architectures Deep Learning (CNN, Transformers). 
+                               Travaux sur la robustesse des algorithmes face aux données bruitées. 
+                               Mise en œuvre de pipelines d'évaluation et tests de performance sur modèles de vision.</p>
+                        </div>
                     </div>
                 </div>
-
-                <div class="about-side">
-                    <div class="about-card stat-card">
-                        <div class="stat-item">
-                            <span class="stat-num">10+</span>
-                            <span class="stat-name">Projets Data</span>
+                
+                <div class="current-focus">
+                    <h3>Ce qui me motive actuellement</h3>
+                    <div class="focus-grid">
+                        <div class="focus-card">
+                            <i class="fas fa-search"></i>
+                            <h4>Recherche CIFRE</h4>
+                            <p>Je recherche une thèse CIFRE pour appliquer l'IA à des problèmes industriels concrets.</p>
                         </div>
-                        <div class="stat-item">
-                            <span class="stat-num">5+</span>
-                            <span class="stat-name">Technologies</span>
+                        <div class="focus-card">
+                            <i class="fas fa-robot"></i>
+                            <h4>LLM & XAI</h4>
+                            <p>Intégration des modèles de langage et de l'explicabilité dans les pipelines ML.</p>
                         </div>
-                        <div class="stat-item">
-                            <span class="stat-num">3+</span>
-                            <span class="stat-name">Années Exp.</span>
-                        </div>
-                    </div>
-
-                    <div class="about-card exp-card">
-                        <h4><i class="fas fa-briefcase"></i> Expérience</h4>
-                        <div class="exp-item">
-                            <div class="exp-dot"></div>
-                            <div class="exp-content">
-                                <span class="exp-title">Data Scientist</span>
-                                <span class="exp-date">2023 - Présent</span>
-                            </div>
-                        </div>
-                        <div class="exp-item">
-                            <div class="exp-dot"></div>
-                            <div class="exp-content">
-                                <span class="exp-title">ML Engineer</span>
-                                <span class="exp-date">2022 - 2023</span>
-                            </div>
-                        </div>
-                        <div class="exp-item">
-                            <div class="exp-dot"></div>
-                            <div class="exp-content">
-                                <span class="exp-title">Master Data Science</span>
-                                <span class="exp-date">2021 - 2023</span>
-                            </div>
+                        <div class="focus-card">
+                            <i class="fas fa-industry"></i>
+                            <h4>ML Industriel</h4>
+                            <p>MLOps et déploiement de modèles robustes en environnement de production.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Méthodologie</span>
+                <h2 class="section-title">Mon approche Data Science</h2>
+            </div>
+            
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Comprendre le problème</h3>
+                    <p>Avant tout code, je m'assure de bien comprendre le contexte métier, les objectifs et les contraintes. Un bon modèle sans compréhension métier ne vaut rien.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Exploration & Qualité</h3>
+                    <p>Analyse exploratoire approfondie, détection des anomalies, gestion des valeurs manquantes. La qualité des données détermine la qualité du modèle.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Feature Engineering</h3>
+                    <p>Création de features pertinentes, encodage intelligent, scaling adapté. Souvent plus important que le choix du modèle.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Modélisation & Validation</h3>
+                    <p>Comparaison de multiples algorithmes, validation croisée rigoureuse, optimisation des hyperparamètres avec Optuna.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">05</div>
+                    <div class="step-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Explicabilité</h3>
+                    <p>SHAP, LIME, et rapports automatisés pour comprendre les décisions du modèle et gagner la confiance des stakeholders.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">06</div>
+                    <div class="step-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Mise en production</h3>
+                    <p>API REST avec FastAPI, conteneurisation Docker, CI/CD, monitoring MLflow. Un modèle non déployé n'a pas de valeur.</p>
                 </div>
             </div>
         </div>
@@ -213,149 +260,204 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Projets en Vedette</h2>
-            <p class="section-subtitle">Mes projets de Data Science & Machine Learning</p>
+            <div class="section-header">
+                <span class="section-eyebrow">Portfolio</span>
+                <h2 class="section-title">Case Studies</h2>
+                <p class="section-subtitle">Projets end-to-end avec contexte métier, approche technique et résultats mesurables.</p>
+            </div>
             
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i class="fas fa-robot"></i>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/KalsoumDS/ChatAutoML-Bot-Streamlit" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-                            <a href="https://github.com/KalsoumDS/ChatAutoML-Bot-Streamlit" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
+            <!-- Case Study 1 -->
+            <article class="case-study">
+                <div class="case-study-header">
+                    <div class="case-study-meta">
+                        <span class="case-category">MLOps</span>
+                        <span class="case-duration"><i class="fas fa-clock"></i> 2 mois</span>
                     </div>
-                    <h3 class="project-title">TabularAI</h3>
-                    <p class="project-description">
-                        Plateforme AutoML pour données tabulaires avec interface interactive et explications LLM.
-                    </p>
-                    <div class="project-features">
-                        <span class="feature">Feature Engineering Auto</span>
-                        <span class="feature">Sélection de Modèles</span>
-                        <span class="feature">Optimisation HP</span>
-                    </div>
-                    <div class="project-tech">
-                        <span class="tech">Python</span>
-                        <span class="tech">Streamlit</span>
-                        <span class="tech">Scikit-learn</span>
-                        <span class="tech">LLM</span>
-                    </div>
+                    <h3 class="case-title">Infrastructure MLOps — CI/CD & Déploiement Scalable</h3>
                 </div>
-
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon" style="background: linear-gradient(135deg, #ff6b6b, #ee5a24);">
-                            <i class="fas fa-heartbeat"></i>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/KalsoumDS/cardiovascular-disease-prediction" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-                            <a href="https://github.com/KalsoumDS/cardiovascular-disease-prediction" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                
+                <div class="case-study-content">
+                    <div class="case-context">
+                        <h4><i class="fas fa-lightbulb"></i> Contexte & Objectif</h4>
+                        <p>Mise en place d'une infrastructure MLOps complète pour le versioning, le suivi et le déploiement 
+                           de modèles Machine Learning en production. Automatisation complète via CI/CD.</p>
+                    </div>
+                    
+                    <div class="case-approach">
+                        <h4><i class="fas fa-cogs"></i> Approche technique</h4>
+                        <ul>
+                            <li><strong>Versioning :</strong> DVC pour les datasets et modèles, Git pour le code</li>
+                            <li><strong>Tracking :</strong> MLflow pour le suivi des expérimentations et des métriques</li>
+                            <li><strong>Conteneurisation :</strong> Docker pour la portabilité des environnements</li>
+                            <li><strong>CI/CD :</strong> GitHub Actions pour l'automatisation des pipelines de déploiement</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-results">
+                        <h4><i class="fas fa-chart-line"></i> Résultats & Impact</h4>
+                        <div class="results-grid">
+                            <div class="result-item">
+                                <span class="result-value">100%</span>
+                                <span class="result-label">Reproductibilité des expériences</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">Zero</span>
+                                <span class="result-label">Déploiement manuel (full CI/CD)</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">Scalable</span>
+                                <span class="result-label">Architecture production-ready</span>
+                            </div>
                         </div>
                     </div>
-                    <h3 class="project-title">Prédiction Maladies Cardiovasculaires</h3>
-                    <p class="project-description">
-                        Système de détection précoce des maladies cardiovasculaires utilisant plusieurs algorithmes ML.
-                    </p>
-                    <div class="project-features">
-                        <span class="feature">Comparaison Modèles</span>
-                        <span class="feature">Prédictions Interactives</span>
-                        <span class="feature">Visualisation</span>
-                    </div>
-                    <div class="project-tech">
+                    
+                    <div class="case-tech">
                         <span class="tech">Python</span>
-                        <span class="tech">Scikit-learn</span>
-                        <span class="tech">Streamlit</span>
-                        <span class="tech">Pandas</span>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon" style="background: linear-gradient(135deg, #4ecdc4, #44a3aa);">
-                            <i class="fas fa-ship"></i>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/KalsoumDS/DeepLearning-Project-1" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-                            <a href="https://github.com/KalsoumDS/DeepLearning-Project-1" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="project-title">Classification Navires Satellites</h3>
-                    <p class="project-description">
-                        Vision par ordinateur pour la détection automatisée de navires sur images satellites.
-                    </p>
-                    <div class="project-features">
-                        <span class="feature">Classification Images</span>
-                        <span class="feature">Transfer Learning</span>
-                        <span class="feature">Déploiement</span>
-                    </div>
-                    <div class="project-tech">
-                        <span class="tech">Python</span>
-                        <span class="tech">PyTorch</span>
-                        <span class="tech">CNN</span>
-                        <span class="tech">OpenCV</span>
-                    </div>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon" style="background: linear-gradient(135deg, #a29bfe, #6c5ce7);">
-                            <i class="fas fa-cogs"></i>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/KalsoumDS/automl-pipeline" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-                            <a href="https://github.com/KalsoumDS/automl-pipeline" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="project-title">Pipeline MLOps</h3>
-                    <p class="project-description">
-                        Infrastructure MLOps prête pour la production avec pipeline CI/CD complet.
-                    </p>
-                    <div class="project-features">
-                        <span class="feature">Versioning Modèles</span>
-                        <span class="feature">Suivi Expériences</span>
-                        <span class="feature">Déploiement Auto</span>
-                    </div>
-                    <div class="project-tech">
                         <span class="tech">MLflow</span>
                         <span class="tech">DVC</span>
                         <span class="tech">Docker</span>
                         <span class="tech">GitHub Actions</span>
+                        <span class="tech">FastAPI</span>
+                    </div>
+                    
+                    <div class="case-links">
+                        <a href="https://github.com/KalsoumDS/mlops-pipeline" target="_blank" class="btn btn-small">
+                            <i class="fab fa-github"></i> Voir le code
+                        </a>
                     </div>
                 </div>
+            </article>
 
-                <!-- Project 5 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon" style="background: linear-gradient(135deg, #fd79a8, #e84393);">
-                            <i class="fas fa-brain"></i>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/KalsoumDS/flask-ann-api" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-                            <a href="https://github.com/KalsoumDS/flask-ann-api" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+            <!-- Case Study 2 -->
+            <article class="case-study">
+                <div class="case-study-header">
+                    <div class="case-study-meta">
+                        <span class="case-category">IA Générative & XAI</span>
+                        <span class="case-duration"><i class="fas fa-clock"></i> 3 mois</span>
+                    </div>
+                    <h3 class="case-title">TabularAI — IA Générative Explainable AI</h3>
+                </div>
+                
+                <div class="case-study-content">
+                    <div class="case-context">
+                        <h4><i class="fas fa-lightbulb"></i> Contexte & Objectif</h4>
+                        <p>Système AutoML intégrant un LLM local pour générer des explications textuelles des prédictions. 
+                           Rendre le Machine Learning accessible et explicable pour les équipes métier.</p>
+                    </div>
+                    
+                    <div class="case-approach">
+                        <h4><i class="fas fa-cogs"></i> Approche technique</h4>
+                        <ul>
+                            <li><strong>Pipeline AutoML :</strong> Prétraitement, Feature Engineering, sélection automatique des modèles</li>
+                            <li><strong>LLM local :</strong> Llama2 via Ollama pour générer des explications en langage naturel</li>
+                            <li><strong>XAI :</strong> SHAP pour l'explicabilité des features</li>
+                            <li><strong>Interface :</strong> Application web interactive avec Streamlit</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-results">
+                        <h4><i class="fas fa-chart-line"></i> Résultats & Impact</h4>
+                        <div class="results-grid">
+                            <div class="result-item">
+                                <span class="result-value">AutoML</span>
+                                <span class="result-label">Pipeline entièrement automatisé</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">LLM</span>
+                                <span class="result-label">Explications génératives locales</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">XAI</span>
+                                <span class="result-label">Transparence des décisions ML</span>
+                            </div>
                         </div>
                     </div>
-                    <h3 class="project-title">API Flask - Réseaux de Neurones</h3>
-                    <p class="project-description">
-                        API RESTful pour servir des modèles de réseaux de neurones avec Flask et TensorFlow.
-                    </p>
-                    <div class="project-features">
-                        <span class="feature">API REST</span>
-                        <span class="feature">Prédictions en Temps Réel</span>
-                        <span class="feature">Déploiement Flask</span>
-                    </div>
-                    <div class="project-tech">
+                    
+                    <div class="case-tech">
                         <span class="tech">Python</span>
-                        <span class="tech">Flask</span>
-                        <span class="tech">TensorFlow</span>
-                        <span class="tech">API REST</span>
+                        <span class="tech">Scikit-learn</span>
+                        <span class="tech">Ollama</span>
+                        <span class="tech">Llama2</span>
+                        <span class="tech">SHAP</span>
+                        <span class="tech">Streamlit</span>
+                    </div>
+                    
+                    <div class="case-links">
+                        <a href="https://github.com/KalsoumDS/ChatAutoML-Bot-Streamlit" target="_blank" class="btn btn-small">
+                            <i class="fab fa-github"></i> Voir le code
+                        </a>
                     </div>
                 </div>
+            </article>
+
+            <!-- Case Study 3 -->
+            <article class="case-study">
+                <div class="case-study-header">
+                    <div class="case-study-meta">
+                        <span class="case-category">Computer Vision</span>
+                        <span class="case-duration"><i class="fas fa-clock"></i> 4 mois</span>
+                    </div>
+                    <h3 class="case-title">Fusion Caméra-LiDAR — Perception 3D</h3>
+                </div>
+                
+                <div class="case-study-content">
+                    <div class="case-context">
+                        <h4><i class="fas fa-lightbulb"></i> Contexte & Objectif</h4>
+                        <p>Fusion de flux hétérogènes (images 2D et nuages de points 3D) pour la détection d'objets 
+                           dans des systèmes de perception avancée. Développement d'un pipeline de fusion multi-capteurs.</p>
+                    </div>
+                    
+                    <div class="case-approach">
+                        <h4><i class="fas fa-cogs"></i> Approche technique</h4>
+                        <ul>
+                            <li><strong>Fusion multi-modale :</strong> Combinaison des données caméra (RGB) et LiDAR (point cloud)</li>
+                            <li><strong>Détection 3D :</strong> Algorithmes de détection et classification d'objets en espace 3D</li>
+                            <li><strong>Calibration :</strong> Alignement temporel et spatial des capteurs hétérogènes</li>
+                            <li><strong>Prétraitement :</strong> Filtrage et normalisation des données bruitées</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-results">
+                        <h4><i class="fas fa-chart-line"></i> Résultats & Impact</h4>
+                        <div class="results-grid">
+                            <div class="result-item">
+                                <span class="result-value">3D</span>
+                                <span class="result-label">Perception spatiale complète</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">Fusion</span>
+                                <span class="result-label">Données 2D + 3D combinées</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">Temps réel</span>
+                                <span class="result-label">Traitement performant</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="case-tech">
+                        <span class="tech">Python</span>
+                        <span class="tech">PyTorch</span>
+                        <span class="tech">OpenCV</span>
+                        <span class="tech">Sensor Fusion</span>
+                        <span class="tech">NumPy</span>
+                        <span class="tech">Pandas</span>
+                    </div>
+                    
+                    <div class="case-links">
+                        <a href="https://github.com/KalsoumDS/DeepLearning-Project-1" target="_blank" class="btn btn-small">
+                            <i class="fab fa-github"></i> Voir le code
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- View All Projects -->
+            <div class="projects-more">
+                <p>Et 7+ autres projets sur mon GitHub</p>
+                <a href="https://github.com/KalsoumDS" target="_blank" class="btn btn-outline">
+                    <i class="fab fa-github"></i> Explorer tous les projets
+                </a>
             </div>
         </div>
     </section>
@@ -363,67 +465,72 @@
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title">Compétences</h2>
+            <div class="section-header">
+                <span class="section-eyebrow">Expertise</span>
+                <h2 class="section-title">Stack technique</h2>
+            </div>
             
-            <div class="skills-grid">
-                <!-- ML & AI -->
+            <div class="skills-container">
                 <div class="skill-category">
-                    <div class="skill-header">
-                        <i class="fas fa-brain skill-icon"></i>
-                        <h3>Machine Learning & IA</h3>
+                    <h3><i class="fas fa-brain"></i> Intelligence Artificielle</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag expert">Machine Learning</span>
+                        <span class="skill-tag expert">Deep Learning</span>
+                        <span class="skill-tag advanced">IA Générative (LLM)</span>
+                        <span class="skill-tag advanced">Vision par Ordinateur</span>
+                        <span class="skill-tag intermediate">GNN</span>
                     </div>
-                    <ul class="skill-list">
-                        <li><i class="fas fa-check"></i> Scikit-learn, TensorFlow, PyTorch</li>
-                        <li><i class="fas fa-check"></i> Deep Learning: CNN, RNN, Transformers</li>
-                        <li><i class="fas fa-check"></i> Transfer Learning</li>
-                        <li><i class="fas fa-check"></i> AutoML & Optimisation</li>
-                        <li><i class="fas fa-check"></i> MLOps: MLflow, DVC, Docker</li>
-                    </ul>
                 </div>
-
-                <!-- Data Science -->
+                
                 <div class="skill-category">
-                    <div class="skill-header">
-                        <i class="fas fa-chart-line skill-icon"></i>
-                        <h3>Data Science & Analytics</h3>
+                    <h3><i class="fas fa-tools"></i> Outils & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag expert">Scikit-learn</span>
+                        <span class="skill-tag expert">PyTorch</span>
+                        <span class="skill-tag advanced">TensorFlow</span>
+                        <span class="skill-tag advanced">Ollama (Llama2)</span>
+                        <span class="skill-tag expert">OpenCV</span>
+                        <span class="skill-tag advanced">Pandas</span>
+                        <span class="skill-tag expert">NumPy</span>
                     </div>
-                    <ul class="skill-list">
-                        <li><i class="fas fa-check"></i> Python, R, SQL</li>
-                        <li><i class="fas fa-check"></i> Pandas, NumPy, SciPy</li>
-                        <li><i class="fas fa-check"></i> Matplotlib, Seaborn, Plotly</li>
-                        <li><i class="fas fa-check"></i> Statistiques & Économétrie</li>
-                        <li><i class="fas fa-check"></i> Spark, Hadoop</li>
-                    </ul>
                 </div>
-
-                <!-- Software Engineering -->
+                
                 <div class="skill-category">
-                    <div class="skill-header">
-                        <i class="fas fa-code skill-icon"></i>
-                        <h3>Ingénierie Logicielle</h3>
+                    <h3><i class="fas fa-server"></i> Développement & MLOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag expert">Python</span>
+                        <span class="skill-tag intermediate">C++</span>
+                        <span class="skill-tag advanced">Docker</span>
+                        <span class="skill-tag advanced">MLflow</span>
+                        <span class="skill-tag advanced">DVC</span>
+                        <span class="skill-tag expert">Git/GitHub Actions</span>
                     </div>
-                    <ul class="skill-list">
-                        <li><i class="fas fa-check"></i> Git, GitHub, CI/CD</li>
-                        <li><i class="fas fa-check"></i> FastAPI, REST APIs</li>
-                        <li><i class="fas fa-check"></i> PostgreSQL, MongoDB</li>
-                        <li><i class="fas fa-check"></i> Docker, Kubernetes</li>
-                        <li><i class="fas fa-check"></i> AWS, GCP, Azure</li>
-                    </ul>
                 </div>
-
-                <!-- Computer Vision -->
+                
                 <div class="skill-category">
-                    <div class="skill-header">
-                        <i class="fas fa-eye skill-icon"></i>
-                        <h3>Vision par Ordinateur</h3>
+                    <h3><i class="fas fa-calculator"></i> Mathématiques</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag expert">Optimisation</span>
+                        <span class="skill-tag advanced">Analyse de données 2D/3D</span>
+                        <span class="skill-tag expert">Modélisation statistique</span>
+                        <span class="skill-tag advanced">Algèbre linéaire</span>
+                        <span class="skill-tag advanced">Analyse numérique</span>
                     </div>
-                    <ul class="skill-list">
-                        <li><i class="fas fa-check"></i> OpenCV, Pillow</li>
-                        <li><i class="fas fa-check"></i> Classification d'images</li>
-                        <li><i class="fas fa-check"></i> Détection d'objets</li>
-                        <li><i class="fas fa-check"></i> Segmentation</li>
-                        <li><i class="fas fa-check"></i> Traitement d'images satellites</li>
-                    </ul>
+                </div>
+            </div>
+            
+            <div class="skill-legend">
+                <div class="legend-item">
+                    <span class="legend-dot expert"></span>
+                    <span>Expert — Utilisation quotidienne</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-dot advanced"></span>
+                    <span>Avancé — Projets réalisés</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-dot intermediate"></span>
+                    <span>Intermédiaire — Notions solides</span>
                 </div>
             </div>
         </div>
@@ -432,33 +539,39 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <p class="contact-subtitle">Intéressé par une collaboration ? Discutons-en !</p>
-            
             <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>contact@kalsoum.me</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Casablanca, Maroc</span>
-                    </div>
+                <span class="contact-eyebrow">Contact</span>
+                <h2>Travaillons ensemble</h2>
+                <p class="contact-description">
+                    Je suis actuellement ouverte aux opportunités de <strong>thèse CIFRE</strong>, 
+                    <strong>stage de fin d'études</strong> et collaborations sur des projets data ambitieux.
+                </p>
+                
+                <div class="contact-methods">
+                    <a href="mailto:oumou.kalthoumsall@gmail.com" class="contact-method primary">
+                        <div class="method-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="method-info">
+                            <span class="method-label">Email</span>
+                            <span class="method-value">oumou.kalthoumsall@gmail.com</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/KalsoumDS" target="_blank" class="contact-method">
+                        <div class="method-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="method-info">
+                            <span class="method-label">GitHub</span>
+                            <span class="method-value">@KalsoumDS</span>
+                        </div>
+                    </a>
                 </div>
                 
-                <div class="social-links">
-                    <a href="https://github.com/KalsoumDS" target="_blank" class="social-link">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#" target="_blank" class="social-link">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="#" target="_blank" class="social-link">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="mailto:contact@kalsoum.me" class="social-link">
-                        <i class="fas fa-envelope"></i>
+                <div class="cv-download">
+                    <a href="#" class="btn btn-outline" onclick="alert('CV disponible sur demande par email'); return false;">
+                        <i class="fas fa-file-alt"></i> Télécharger mon CV
                     </a>
                 </div>
             </div>
@@ -468,7 +581,14 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Oumou Kaltoum Sall. Construit avec passion.</p>
+            <div class="footer-content">
+                <p class="footer-text">
+                    Construit avec soin par <strong>Oumou Kaltoum Sall</strong>
+                </p>
+                <p class="footer-small">
+                    © 2026 — Data Scientist & ML Engineer
+                </p>
+            </div>
         </div>
     </footer>
 

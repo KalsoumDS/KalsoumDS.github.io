@@ -1,69 +1,79 @@
-# Portfolio - Oumou Kaltoum Sall
+# Oumou Kaltoum Sall — Data Scientist
 
-Portfolio professionnel de Data Scientist, déployé sur GitHub Pages.
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-blue?style=flat-square&logo=github)](https://kalsoumds.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-KalsoumDS-black?style=flat-square&logo=github)](https://github.com/KalsoumDS)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=gmail)](mailto:s.sall@mundiapolis.ma)
 
-## 🌐 Live Demo
+> Master Data Science & IA — Spécialisée en Machine Learning, Deep Learning et MLOps
 
-Visitez : `https://kalsoumds.github.io` (après déploiement)
+---
 
-## 📁 Structure
+## 🌐 Portfolio
+
+**[kalsoumds.github.io](https://kalsoumds.github.io)**
+
+Portfolio minimaliste et professionnel présentant mes projets et compétences en Data Science.
+
+---
+
+## 🚀 Projets
+
+| Projet | Description | Technologies |
+|--------|-------------|--------------|
+| **[TabularAI](https://github.com/KalsoumDS/ChatAutoML-Bot-Streamlit)** | Système AutoML avec Explainable AI. Pipeline ML automatisé + LLM local pour explicabilité. | Python, Scikit-learn, Streamlit, Ollama |
+| **[MLOps Pipeline](https://github.com/KalsoumDS/mlops-pipeline)** | Infrastructure ML production-ready. CI/CD, versioning données (DVC), tracking (MLflow). | MLflow, DVC, Docker, GitHub Actions |
+| **[Fusion Caméra-LiDAR](https://github.com/KalsoumDS/DeepLearning-Project-1)** | Perception 3D pour véhicules autonomes. Fusion multi-capteurs, YOLOv8, Reinforcement Learning. | PyTorch, YOLOv8, Sensor Fusion, RL |
+| **[Classification Navires](https://github.com/KalsoumDS/DeepLearning-Project-1)** | Vision par ordinateur pour images satellites. Détection de navires avec CNN et transfer learning. | PyTorch, CNN, Computer Vision |
+
+---
+
+## 🛠 Compétences
+
+**Machine Learning & Deep Learning**
+Scikit-learn · TensorFlow · PyTorch · XGBoost · CNN · Transformers · Computer Vision · NLP
+
+**MLOps & Engineering**
+MLflow · DVC · Docker · Git · CI/CD · FastAPI · Flask · Streamlit · PostgreSQL · MongoDB
+
+**Langages & Outils**
+Python · C++ · SQL · GitHub Actions · Linux · Jupyter
+
+---
+
+## 📁 Structure du Portfolio
 
 ```
 Portfolio/
-├── index.html      # Page principale
-├── style.css       # Styles modernes & responsive
-├── script.js       # Interactivité
-└── README.md       # Documentation
+├── index.html      # Page principale (sections: Hero, Projets, Skills, Contact)
+├── style.css       # Styles minimalistes & responsive
+├── script.js       # Navigation mobile + smooth scroll
+└── README.md       # Ce fichier
 ```
 
-## 🚀 Déploiement sur GitHub Pages
+---
 
-### 1. Créer un repository GitHub
-```bash
-# Sur GitHub, créer un repo public nommé "KalsoumDS"
-```
+## 🚀 Déploiement GitHub Pages
 
-### 2. Initialiser et pousser le code
 ```bash
-cd /Users/macbook/Desktop/Portfolio
+# 1. Initialiser le repo
 git init
 git add .
-git commit -m "Initial portfolio commit"
+git commit -m "Portfolio v1.0"
+
+# 2. Créer repo sur GitHub nommé "KalsoumDS.github.io"
+# 3. Pousser
 git branch -M main
 git remote add origin https://github.com/KalsoumDS/KalsoumDS.github.io.git
 git push -u origin main
+
+# 4. GitHub Pages s'active automatiquement (Settings > Pages > Deploy from branch > main)
 ```
 
-### 3. Activer GitHub Pages
-1. Aller sur **Settings** → **Pages**
-2. Source : **Deploy from a branch**
-3. Branch : **main** / **root**
-4. Cliquer **Save**
-5. Attendre 2-3 minutes, puis visiter `https://kalsoumds.github.io`
-
-## ✨ Fonctionnalités
-
-- **Design moderne** : Dark theme avec gradients
-- **Responsive** : Mobile-first, s'adapte à tous les écrans
-- **Sections** :
-  - Hero avec code animé
-  - À propos avec stats
-  - Projets en vedette (5 projets)
-  - Compétences (ML, Data, Software, Vision)
-  - Contact & réseaux sociaux
-- **Animations** : Scroll reveal, hover effects
-- **Performance** : Site statique, chargement rapide
-
-## 🛠 Technologies
-
-- HTML5 sémantique
-- CSS3 (Grid, Flexbox, animations)
-- JavaScript vanilla
-- Font Awesome icons
-- Google Fonts (Inter)
+---
 
 ## 📧 Contact
 
-- GitHub : [@KalsoumDS](https://github.com/KalsoumDS)
-- Email : contact@kalsoum.me
-- Localisation : Casablanca, Maroc
+- **Portfolio** : [kalsoumds.github.io](https://kalsoumds.github.io)
+- **GitHub** : [@KalsoumDS](https://github.com/KalsoumDS)
+- **Email** : [s.sall@mundiapolis.ma](mailto:s.sall@mundiapolis.ma)
+- **LinkedIn** : [linkedin.com/in/kalsoum-sall](https://linkedin.com/in/kalsoum-sall)
