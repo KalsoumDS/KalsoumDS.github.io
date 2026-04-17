@@ -1,9 +1,15 @@
 # Oumou Kaltoum Sall
 
 **Data Scientist** — Casablanca, Morocco  
-📧 oumou.kalthoumsall@gmail.com
+📧 oumoukaltoumsall@gmail.com
 
-[![🌐 Portfolio](https://img.shields.io/badge/🌐_Voir_mon_Portfolio_Complet-6366f1?style=for-the-badge&logo=github&logoColor=white)](https://kalsoumds.github.io)
+---
+
+## 🌐 Portfolio
+
+[![Portfolio](https://img.shields.io/badge/🔗_VOIR_MON_PORTFOLIO-6366f1?style=for-the-badge&logo=github&logoColor=white&labelColor=6366f1)](https://kalsoumds.github.io)
+
+---
 
 Master student in Data Science & AI. Building ML systems from research to production.
 
@@ -27,9 +33,9 @@ Master student in Data Science & AI. Building ML systems from research to produc
 | Project | Description | Tech |
 |---------|-------------|------|
 | [TabularAI](https://github.com/KalsoumDS/ChatAutoML-Bot-Streamlit) | AutoML + LLM local for explainable predictions | Python, Scikit-learn, Ollama |
-| [MLOps Pipeline](https://github.com/KalsoumDS/mlops-pipeline) | ML production infrastructure with CI/CD | MLflow, DVC, Docker, GitHub Actions |
+| [Heart Disease MLOps](https://github.com/KalsoumDS/automl-pipeline) | Classification with MLOps pipeline (DVC, MLflow) | MLflow, DVC, TensorFlow, ANN |
 | [Fusion Caméra-LiDAR](https://github.com/KalsoumDS/DeepLearning-Project-1) | 3D perception multi-sensor fusion | PyTorch, OpenCV, Sensor Fusion |
-| [Cardiovascular Prediction](https://github.com/KalsoumDS/Cardiovascular-Diseases-Prediction) | Disease risk prediction ML system | Scikit-learn, XGBoost |
+| [Cardiovascular Prediction](https://github.com/KalsoumDS/cardiovascular-disease-prediction) | Disease risk prediction ML system | Scikit-learn, XGBoost |
 
 ---
 

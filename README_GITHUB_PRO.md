@@ -2,7 +2,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/kalsoum-sall)
 [![Portfolio](https://img.shields.io/badge/Portfolio-6366f1?style=flat-square&logo=github)](https://kalsoumds.github.io)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:oumou.kalthoumsall@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:oumoukaltoumsall@gmail.com)
 
 **Data Scientist | Machine Learning Engineer | MLOps**
 
@@ -98,7 +98,7 @@ class DataScientist:
 
 ## 📫 Get In Touch
 
-- 📧 Email: [oumou.kalthoumsall@gmail.com](mailto:oumou.kalthoumsall@gmail.com)
+- 📧 Email: [oumoukaltoumsall@gmail.com](mailto:oumoukaltoumsall@gmail.com)
 - 🌐 Portfolio: [kalsoumds.github.io](https://kalsoumds.github.io)
 - 💼 LinkedIn: [linkedin.com/in/kalsoum-sall](https://linkedin.com/in/kalsoum-sall)
 

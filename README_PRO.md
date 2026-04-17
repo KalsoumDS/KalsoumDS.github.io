@@ -1,7 +1,7 @@
 # Oumou Kaltoum Sall
 
 **Data Scientist** | Casablanca, Maroc  
-📧 oumou.kalthoumsall@gmail.com | 🌐 [kalsoumds.github.io](https://kalsoumds.github.io)
+📧 oumoukaltoumsall@gmail.com | 🌐 [kalsoumds.github.io](https://kalsoumds.github.io)
 
 ---
 

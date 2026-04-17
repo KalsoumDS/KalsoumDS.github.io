@@ -25,7 +25,7 @@ class DataScientist:
         ]
         
     def contact(self):
-        return "oumou.kalthoumsall@gmail.com"
+        return "oumoukaltoumsall@gmail.com"
 ```
 
 ---
@@ -57,4 +57,4 @@ class DataScientist:
 
 ## 📧 Contact
 
-📧 **Email** : oumou.kalthoumsall@gmail.com
+📧 **Email** : oumoukaltoumsall@gmail.com
